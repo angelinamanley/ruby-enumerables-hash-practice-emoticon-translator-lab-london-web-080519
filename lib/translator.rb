@@ -10,7 +10,7 @@ def load_library(file_path)
   emoticons each do | translation, array |  # translation =>[english, japanese]
     emoticon_hash["get meaning"][array[1]] = translation
     emoticon_hash["get_emoticon"][array[0]] = array[1]
-  end 
+  end
 
 emoticon_hash
 end
