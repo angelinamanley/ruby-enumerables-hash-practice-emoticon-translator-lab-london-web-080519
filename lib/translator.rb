@@ -2,7 +2,7 @@
 
 def load_library(file_path)
 
-  emoticons = YAML.load_file('file_path')
+  emoticons = YAML.load_file(file_path)
   emoticon_hash = {
       "get_meaning" => {}, #keys inside get_meaning hash are japanese emoticons and point to their meanings {☜(⌒▽⌒)☞, angel}
       "get_emoticon" => {}  #are the english emoticons, point to their japanese equivalents {O:),"☜(⌒▽⌒)☞"}
